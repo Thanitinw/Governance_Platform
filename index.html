@@ -1063,7 +1063,7 @@ td:nth-child(3) .how-d ul{border-left-color:var(--blue)}
     <div class="grid catgrid3">
       <button class="card cat" data-cat="a"><h3><span class="cat-l">A</span>Corporate Governance</h3><p class="q own">คณะกรรมการบริษัท (Board)</p><ul class="subl"><li><b>A1</b>Shareholder &amp; Board Leadership</li><li><b>A2</b>Parent &amp; Subsidiary</li></ul><span class="go">ดูรายละเอียด →</span></button>
       <button class="card cat" data-cat="b" style="border-top-color:var(--blue)"><h3><span class="cat-l">B</span>Business Management Governance</h3><p class="q own">คณะกรรมการบริหาร (EC)</p><ul class="subl"><li><b>B1</b>Strategy</li><li><b>B2</b>Project &amp; Investment</li></ul><span class="go">ดูรายละเอียด →</span></button>
-      <button class="card cat" data-cat="c" style="border-top-color:var(--slate)"><h3><span class="cat-l">C</span>Functional Governance</h3><p class="q own">ผู้บริหารสูงสุด (ผ่าน VP)</p><ul class="subl"><li><b>C1</b>Financial</li><li><b>C2</b>Human Resource</li><li><b>C3</b>Operational Process</li><li><b>C4</b>Data, Information Technology &amp; AI</li></ul><span class="go">ดูรายละเอียด →</span></button>
+      <button class="card cat" data-cat="c" style="border-top-color:var(--slate)"><h3><span class="cat-l">C</span>Functional Governance</h3><p class="q own">ผู้บริหารสูงสุด (ผ่าน VP)</p><ul class="subl"><li><b>C1</b>Financial</li><li><b>C2</b>Human Resource</li><li><b>C3</b>Operational Process</li><li><b>C4</b>Data, Information Technology &amp; AI</li><li><b>C5</b>Physical</li></ul><span class="go">ดูรายละเอียด →</span></button>
     </div>
     <div class="more-row mr2">
       <button class="card mr-card mr-shared" data-tpl="shared"><span class="mr-h"><span class="mr-k">กรอบร่วม</span><span class="mr-t">ส่วนกลางวางกรอบ - ใช้ร่วมกันทั้งกลุ่ม</span><span class="go">ดูรายละเอียด →</span></span><span class="mr-own2">ผู้บริหารสูงสุด (ผ่าน VP)<small>ดำเนินการโดย Risk &amp; Compliance · Legal · ESG &amp; Sustainable Development</small></span><span class="mr-tiles"><span><b>1</b>Risk Management</span><span><b>2</b>Legal &amp; Compliance</span><span><b>3</b>Sustainability (ESG)</span></span></button>
@@ -1158,6 +1158,11 @@ td:nth-child(3) .how-d ul{border-left-color:var(--blue)}
         <p class="t">Data, Information Technology &amp; AI</p>
         <div><span class="lbl">ขอบเขตงาน</span><ul><li>ทิศทางการใช้เทคโนโลยีเพื่อการบริหารจัดการองค์กร</li><li>คุณภาพ ความปลอดภัย และความเป็นส่วนตัวของข้อมูล (Data Quality | Security | Privacy)</li><li>การใช้ AI</li></ul></div>
         <div><span class="lbl">เจ้าภาพฝ่ายบริหาร</span>Agentic Organization &amp; Information Capital</div>
+      </div></div>
+      <div class="topic"><div class="code">C5</div><div class="body">
+        <p class="t">Physical</p>
+        <div><span class="lbl">ขอบเขตงาน</span><ul><li>การจัดหา ก่อสร้าง และบริหารสินทรัพย์ถาวร</li><li>การใช้ประโยชน์และบำรุงรักษาสินทรัพย์ให้คุ้มค่า</li><li>การบริหารผู้ขาย อาคาร และสถานที่</li><li>ความปลอดภัยของสินทรัพย์และพื้นที่ปฏิบัติงาน</li></ul></div>
+        <div><span class="lbl">เจ้าภาพฝ่ายบริหาร</span>Physical Capital Management</div>
       </div></div>
     </template>
 
@@ -1261,6 +1266,7 @@ const M={
   C2:{e:"C · Functional Governance",c:"C2",t:"Human Resource",r:[["ขอบเขตงาน","โครงสร้างกำลังคน สมรรถนะหลัก (Core Competency) การวางแผนสืบทอดตำแหน่ง การประเมินผลงานและค่าตอบแทน"],["เจ้าภาพฝ่ายบริหาร","Human Capital"],["กรอบร่วมที่ใช้",SHARED]],l:[["#goals","ดูบทบาท HR ต่อ Platform"]]},
   C3:{e:"C · Functional Governance",c:"C3",t:"Operational Process",r:[["ขอบเขตงาน","กำหนดมาตรฐานงาน (Work Standard) ของแต่ละหน้าที่ เช่น การขาย/การตลาด การจัดซื้อ/จัดจ้าง การผลิต การบริหารโครงการ การส่งมอบ การควบคุมคุณภาพและความปลอดภัย รวมถึงการบริหารคู่ค้าและความต่อเนื่องทางธุรกิจ"],["เจ้าภาพฝ่ายบริหาร","Process Capital"],["กรอบร่วมที่ใช้",SHARED]],l:[["#platform","ดูการฝังมาตรฐานใน Platform"]]},
   C4:{e:"C · Functional Governance",c:"C4",t:"Data, Information Technology & AI",r:[["ขอบเขตงาน","ทิศทางการใช้เทคโนโลยีเพื่อการบริหารจัดการองค์กร (Data Quality | Security | Privacy) รวมถึงการใช้ AI"],["เจ้าภาพฝ่ายบริหาร","Agentic Organization & Information Capital"],["กรอบร่วมที่ใช้",SHARED]],l:[["#platform","ดูบทบาทต่อ Platform"]]},
+  C5:{e:"C · Functional Governance",c:"C5",t:"Physical",r:[["ขอบเขตงาน","การจัดหา ก่อสร้าง และบริหารสินทรัพย์ถาวร การใช้ประโยชน์และบำรุงรักษาสินทรัพย์ การบริหารผู้ขาย อาคาร และสถานที่ และความปลอดภัยของสินทรัพย์"],["เจ้าภาพฝ่ายบริหาร","Physical Capital Management"],["กรอบร่วมที่ใช้",SHARED]],l:[]},
   pain1:{e:"Pain Point",c:"1",t:"แยกส่วน ไม่เชื่อมโยง",r:[["รายละเอียด","เมื่อปรับโครงสร้าง โยกย้าย หรือเปลี่ยนตัวบุคคล การควบคุมไม่ได้ปรับตาม บางเรื่องทำซ้ำ บางเรื่องเกิดปัญหาแล้วไม่รู้ใครต้องแก้"],["แก้ด้วย","เป้าหมาย 1 · Integration Standardization"]],l:[["#goals","ไปที่เป้าหมาย"]]},
   pain2:{e:"Pain Point",c:"2",t:"มาตรฐานอยู่บนกระดาษ",r:[["รายละเอียด","การปฏิบัติตามขึ้นกับความเข้าใจของแต่ละคน และไม่มีระบบหยุดรายการที่เกินอำนาจหรือนอกมาตรฐานตั้งแต่ต้นทาง"],["แก้ด้วย","เป้าหมาย 1 · Integration Standardization"]],l:[["#goals","ไปที่เป้าหมาย"]]},
   pain3:{e:"Pain Point",c:"4",t:"รู้ความเสี่ยงช้า",r:[["รายละเอียด","ACFE 2024 พบว่าทุจริตใช้เวลาเฉลี่ย 12 เดือนกว่าจะถูกพบ แต่เหลือ 6 เดือนเมื่อใช้การเฝ้าระวังด้วยข้อมูลเชิงรุก"],["แก้ด้วย","เป้าหมาย 3 · Early Warning"]],l:[["#goals","ไปที่เป้าหมาย"],["#platform","ดูตัวอย่างสัญญาณเตือน"]]},
